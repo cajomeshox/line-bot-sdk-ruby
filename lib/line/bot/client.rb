@@ -23,7 +23,7 @@ module Line
     class Client
 
       #  @return [String]
-      attr_accessor :channel_token, :channel_secret, :endpoint
+      attr_accessor :jtqogvL2l3vi0Pp4+3YjRHMn1xFp0H987cTIazVFh2v/Wz6D51rdnW08j6KwTKnSq/UvH99gE73lfGWZGtmd+YmwvD1QjV1z6IbU7rnbfeiWWfSFOwuCEYjeycoBc9lDpmHa5F9GwAMaVR+YyaKZzQdB04t89/1O/w1cDnyilFU=, :8342c1c90854551143536303af81bf11, :endpoint
 
       # @return [Object]
       attr_accessor :httpclient
@@ -51,7 +51,7 @@ module Line
       # @return [Hash]
       def credentials
         {
-          "Authorization" => "Bearer #{channel_token}",
+          "Authorization" => "Bearer #{jtqogvL2l3vi0Pp4+3YjRHMn1xFp0H987cTIazVFh2v/Wz6D51rdnW08j6KwTKnSq/UvH99gE73lfGWZGtmd+YmwvD1QjV1z6IbU7rnbfeiWWfSFOwuCEYjeycoBc9lDpmHa5F9GwAMaVR+YyaKZzQdB04t89/1O/w1cDnyilFU=}",
         }
       end
 
